@@ -50,11 +50,11 @@ const ProductDetails = ({ product, products, bannerData }) => {
                     (20)
                 </p>
                     </div>*/}
-            <h4>Details: </h4>
-            <p>{details}</p>¨
+            <h4>Beskrivning:</h4>
+            <p>{details}</p>
             <p className="price">{price} SEK</p>
             <div className="quantity">
-                <h3>Quantity:</h3>
+                <h3>Antal:</h3>
                 <p className="quantity-desc">
                     <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
                     <span className="num">{qty}</span>

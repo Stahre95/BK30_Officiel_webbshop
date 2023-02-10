@@ -172,10 +172,11 @@ width: 100%;
 }
 .hero-banner-image{
   position: absolute;
-  top: 0%;
+  top: 20%;
   right:25%;
-  width: 400px;
-  height: 400px;
+  /*width: 500px;
+  height: 500px;*/
+  transform: scale(1.5);
 }
 
 
@@ -255,8 +256,8 @@ text-align: end;
   /* top: -35%;
   left: 8%; */
   top: -5%;
-  left: 40%;
-  transform: scale(2);
+  left: 35%;
+  transform: scale(1.1);
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -630,20 +631,25 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
+    /*width: 77%;
     height: 62%;
     top: -2%;
-    right: -6%;
+    right: -36%;*/
+    transform: scale(0.7);
+    left: 3%;
+    top: 15%;
   }
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
+    margin-right: 0;
+    margin-left: 0;
   }
   .footer-banner-image{
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%
+    transform: scale(0.5);
+    left: 15%;
+    top: -20%;
+    
   }
   .banner-desc .left h3{
     font-weight: 900;

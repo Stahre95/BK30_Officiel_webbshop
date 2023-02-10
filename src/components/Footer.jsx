@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer-container">
       <p>2023 Västerås BK30 ALL rights reserved</p>
       <p className="icons">
-        <AiFillInstagram />
-        <AiFillFacebook />
+        <a href="https://www.instagram.com/vasteras_bk30_officiell/" target="_blank"><AiFillInstagram /></a>
+        <a href="https://www.facebook.com/vasterasbk30fotboll" target="_blank"><AiFillFacebook /></a>
       </p>
     </div>
   );
